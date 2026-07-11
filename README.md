@@ -1,23 +1,23 @@
 # Mini CRM
 
-A **Mini CRM (Customer Relationship Management)** web application built using **HTML, CSS, JavaScript, Node.js, Express.js, and MongoDB**. This project helps users manage customer leads with complete CRUD (Create, Read, Update, Delete) functionality through a modern and responsive interface.
+A Mini CRM (Customer Relationship Management) web application built using **HTML, CSS, JavaScript, Node.js, Express.js, and MongoDB**. This project allows users to manage customer leads with full CRUD operations.
 
 ---
 
 ## 🚀 Features
 
-- Add New Leads
-- View All Leads
-- Update Existing Leads
-- Delete Individual Leads
-- Delete All Leads
-- Search Leads by Name or Email
-- Filter Leads by Status
-- Dashboard Statistics
-- Export Leads to CSV
-- Responsive User Interface
-- REST API Integration
-- MongoDB Database Support
+- Add new customer leads
+- View all leads
+- Update existing leads
+- Delete individual leads
+- Delete all leads
+- Search leads by name or email
+- Filter leads by status
+- Dashboard statistics
+- Export leads to CSV
+- Responsive user interface
+- MongoDB database integration
+- REST API using Express.js
 
 ---
 
@@ -71,25 +71,25 @@ mini-crm/
 
 ## ⚙️ Installation
 
-### Clone the Repository
+### Clone the repository
 
 ```bash
-git clone  https://github.com/Mohammad-Raziuddin15/FUTURE_FS_02.git
+git clone https://github.com/Mohammad-Raziuddin15/FUTURE_FS_02.git
 ```
 
-### Navigate to Project
+### Navigate to the project
 
 ```bash
-cd YOUR_REPOSITORY_NAME
+cd mini-crm
 ```
 
-### Install Dependencies
+### Install dependencies
 
 ```bash
 npm install
 ```
 
-### Create `.env` File
+### Create a `.env` file
 
 ```env
 PORT=5000
@@ -98,9 +98,9 @@ MONGO_URI=mongodb://127.0.0.1:27017/miniCRM
 
 ### Start MongoDB
 
-Make sure the MongoDB service is running.
+Make sure MongoDB is running.
 
-### Start Backend Server
+### Run the backend
 
 ```bash
 npm run dev
@@ -116,16 +116,16 @@ http://localhost:5000
 
 ## 📌 API Endpoints
 
-### Get All Leads
-
-```
-GET /api/leads/all
-```
-
 ### Add Lead
 
 ```
 POST /api/leads/add
+```
+
+### Get All Leads
+
+```
+GET /api/leads/all
 ```
 
 ### Update Lead
@@ -148,22 +148,6 @@ DELETE /api/leads/delete-all
 
 ---
 
-## 🌐 Live Demo
-
-### Frontend
-
-```
-https://mohammad-raziuddin15.github.io/YOUR_REPOSITORY_NAME/
-```
-
-### Backend API
-
-```
-http://localhost:5000
-```
-
----
-
 ## 📊 Project Features
 
 - Customer Lead Management
@@ -172,8 +156,7 @@ http://localhost:5000
 - Status Filter
 - CRUD Operations
 - CSV Export
-- MongoDB Database Integration
-- RESTful API
+- Local MongoDB Database
 - Responsive Design
 
 ---
@@ -182,9 +165,14 @@ http://localhost:5000
 
 **Mohammad Raziuddin**
 
+GitHub:
+https://github.com/Mohammad-Raziuddin15
+
+LinkedIn:
+https://www.linkedin.com/in/mohammad-raziuddin-4a49b3305
 
 ---
 
 ## 📄 License
 
-This project is created for educational and internship purposes under the **Future Interns Full Stack Web Development Internship Program**.
+This project is developed for educational and internship purposes.
